@@ -23,4 +23,4 @@ it's about human resources
 Contact
 Feel free to reach out if you have any questions or need further information.
 Email: kubilaycansever@hotmail.com
-LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/kubilay-cansever-a21ba8201/)
+LinkedIn: https://www.linkedin.com/in/kubilay-cansever-a21ba8201/
