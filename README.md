@@ -5,18 +5,18 @@ Table of Contents
 
 ## Human Resources Analysis
 
-## Project 2
-
-## Project 3
+## Spotify Analysis
 
 ## How to Use
 
 ## Contact
 
-[Introduction](#introduction)
+<h2 id="introduction">Introduction</h2>
+
 This repository contains multiple analyses on different topics, each organized into separate files. The files are numbered sequentially (1_, 2_, etc.) to illustrate my progression and approach to various data analysis tasks. You will find work related to different datasets, methodologies, and visualization techniques.
 
 <h2 id="human-resources-analysis">Human Resources Analysis</h2>
+
 ### Description
 This project focuses on Human Resources data analysis and visualization.
 
@@ -26,7 +26,7 @@ This project focuses on Human Resources data analysis and visualization.
 - `hrClean.sql`
 
 
-[Contact](#contact)
+<h2 id="contact">Contact</h2>
 Feel free to reach out if you have any questions or need further information.
 
 ### Email: 
