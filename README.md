@@ -17,7 +17,7 @@ Table of Contents
 This repository contains multiple analyses on different topics, each organized into separate files. The files are numbered sequentially (1_, 2_, etc.) to illustrate my progression and approach to various data analysis tasks. You will find work related to different datasets, methodologies, and visualization techniques.
 
 [Human Resources Analysis](#human-resources-analysis)
-
+<h2 id="human-resources-analysis">Human Resources Analysis</h2>
 ### Description
 This project focuses on Human Resources data analysis and visualization.
 
