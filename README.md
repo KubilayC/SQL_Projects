@@ -17,13 +17,13 @@ This repository contains multiple analyses on different topics, each organized i
 
 [Human Resources Analysis](#human-resources-analysis)
 
-Description
-it's about human resources
+### Description
+This project focuses on Human Resources data analysis and visualization.
 
-Files
--Human Resources Data Analysis and Visualization Report.pdf
--hr_query.sql
--hrClean.sql
+### Files
+- `Human Resources Data Analysis and Visualization Report.pdf`
+- `hr_query.sql`
+- `hrClean.sql`
 
 
 [Contact](#contact)
