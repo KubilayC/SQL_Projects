@@ -19,25 +19,11 @@ This repository contains multiple analyses on different topics, each organized i
 
 Description
 it's about human resources
-a
-a
-a
-a
-a
-a
-a
 
-a
-a
-a
-a
-
-a
-a
-a
-a
-
-aa
+Files
+-Human Resources Data Analysis and Visualization Report.pdf
+-hr_query.sql
+-hrClean.sql
 
 
 [Contact](#contact)
