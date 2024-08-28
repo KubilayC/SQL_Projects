@@ -5,8 +5,6 @@ Table of Contents
 
 ## Human Resources Analysis
 
-## Spotify Analysis
-
 ## How to Use
 
 ## Contact
@@ -18,7 +16,12 @@ This repository contains multiple analyses on different topics, each organized i
 <h2 id="human-resources-analysis">Human Resources Analysis</h2>
 
 ### Description
-This project focuses on Human Resources data analysis and visualization.
+This repository includes an analysis of the HR dataset focusing on:
+-Employee Distribution: Breakdown of employees across different departments.
+-Commuting Distances: Categorization of employees' distances from home and its impact on overtime.
+-Education vs. Department: Relationship between employees' educational backgrounds and their current departments.
+-Job Roles Analysis: Examination of job roles in relation to employees' education.
+-The analysis uses SQL queries and CTEs to provide insights into workforce distribution, commuting patterns, and the influence of education on job roles.
 
 ### Files
 - `Human Resources Data Analysis and Visualization Report.pdf`
