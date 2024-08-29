@@ -5,6 +5,8 @@ Table of Contents
 
 ## Human Resources Analysis
 
+## Digital Marketing Analysis
+
 ## How to Use
 
 ## Contact
@@ -27,6 +29,8 @@ This repository includes an analysis of the HR dataset focusing on:
 - `Human Resources Data Analysis and Visualization Report.pdf`
 - `hr_query.sql`
 - `hrClean.sql`
+
+<h2 id="digital-marketing-analysis">Digital Marketing Analysis</h2>
 
 
 <h2 id="contact">Contact</h2>
