@@ -1,7 +1,7 @@
 Welcome to my Data Analysis Portfolio! This repository showcases a variety of data analysis projects I’ve worked on, demonstrating my skills and progress as a data analyst.
 
 Table of Contents
-## [Go to Heading section] (#this-is-a-heading)
+## [Go to Heading section](#this-is-a-heading)
 
 ## [Human Resources Analysis](#human-resources-analysis)
 
