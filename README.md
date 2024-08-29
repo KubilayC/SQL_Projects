@@ -1,7 +1,7 @@
 Welcome to my Data Analysis Portfolio! This repository showcases a variety of data analysis projects I’ve worked on, demonstrating my skills and progress as a data analyst.
 
-Table of Contents
-## Introduction
+# Table of Contents
+[Introduction](#introduction)
 
 ## Human Resources Analysis
 
@@ -9,9 +9,9 @@ Table of Contents
 
 ## Contact
 
-<h2 id="introduction">Introduction</h2>
+### <a name="introduction"></a>Introduction
 
-## Introduction to Repositorie
+
 This repository contains multiple analyses on different topics, each organized into separate files. The files are numbered sequentially (1_, 2_, etc.) to illustrate my progression and approach to various data analysis tasks. You will find work related to different datasets, methodologies, and visualization techniques.
 
 <h2 id="human-resources-analysis">Human Resources Analysis</h2>
