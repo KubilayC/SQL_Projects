@@ -1,15 +1,15 @@
 Welcome to my Data Analysis Portfolio! This repository showcases a variety of data analysis projects I’ve worked on, demonstrating my skills and progress as a data analyst.
 
 Table of Contents
-## Introduction
+## [Introduction](#introduction)
 
-## Human Resources Analysis
+## [Human Resources Analysis](#human-resources-analysis)
 
-## Digital Marketing Analysis
+## [Digital Marketing Analysis](#digital-marketing-analysis)
 
-## How to Use
+## [How to Use](#how-to-use)
 
-## Contact
+## [Contact](#contact)
 
 <h2 id="introduction">Introduction</h2>
 
@@ -32,6 +32,7 @@ This repository includes an analysis of the HR dataset focusing on:
 
 <h2 id="digital-marketing-analysis">Digital Marketing Analysis</h2>
 
+<!-- Add your content here -->
 
 <h2 id="contact">Contact</h2>
 Feel free to reach out if you have any questions or need further information.
