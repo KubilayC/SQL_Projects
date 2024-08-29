@@ -16,7 +16,6 @@ This repository contains multiple analyses on different topics, each organized i
 
 ### <a name="human resources analysis"></a>Human Resources Analysis
 
-### Description
 This repository includes an analysis of the HR dataset focusing on:
 - Employee Distribution: Breakdown of employees across different departments.
 - Commuting Distances: Categorization of employees' distances from home and its impact on overtime.
