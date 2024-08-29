@@ -11,11 +11,11 @@ Table of Contents
 
 ## [Contact](#contact)
 
-<h2 id="introduction">Introduction</h2>
+## Introduction
 
 This repository contains multiple analyses on different topics, each organized into separate files. The files are numbered sequentially (1_, 2_, etc.) to illustrate my progression and approach to various data analysis tasks. You will find work related to different datasets, methodologies, and visualization techniques.
 
-<h2 id="human-resources-analysis">Human Resources Analysis</h2>
+## Human Resources Analysis
 
 ### Description
 This repository includes an analysis of the HR dataset focusing on:
@@ -30,11 +30,11 @@ This repository includes an analysis of the HR dataset focusing on:
 - `hr_query.sql`
 - `hrClean.sql`
 
-<h2 id="digital-marketing-analysis">Digital Marketing Analysis</h2>
+## Digital Marketing Analysis
 
 <!-- Add your content here -->
 
-<h2 id="contact">Contact</h2>
+## Contact
 Feel free to reach out if you have any questions or need further information.
 
 ### Email: 
