@@ -3,18 +3,18 @@ Welcome to my Data Analysis Portfolio! This repository showcases a variety of da
 # Table of Contents
 [Introduction](#introduction)
 
-## Human Resources Analysis
+[Human Resources Analysis](#human-resources-analysis)
 
-## How to Use
+[Digital Marketing Analysis](#digital-marketing-analysis)
 
-## Contact
+[Contact](#contact)
 
 ### <a name="introduction"></a>Introduction
 
 
 This repository contains multiple analyses on different topics, each organized into separate files. The files are numbered sequentially (1_, 2_, etc.) to illustrate my progression and approach to various data analysis tasks. You will find work related to different datasets, methodologies, and visualization techniques.
 
-<h2 id="human-resources-analysis">Human Resources Analysis</h2>
+### <a name="human resources analysis"></a>Human Resources Analysis
 
 ### Description
 This repository includes an analysis of the HR dataset focusing on:
