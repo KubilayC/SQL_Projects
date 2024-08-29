@@ -1,20 +1,20 @@
 Welcome to my Data Analysis Portfolio! This repository showcases a variety of data analysis projects I’ve worked on, demonstrating my skills and progress as a data analyst.
 
-# Table of Contents
-[Introduction](#introduction)
+Table of Contents
+## Introduction
 
-[Human Resources Analysis](#human-resources-analysis)
+## Human Resources Analysis
 
-[Digital Marketing Analysis](#digital-marketing-analysis)
+## How to Use
 
-[Contact](#contact)
+## Contact
 
+<h2 id="introduction">Introduction</h2>
 
-### <a name="introduction"></a>Introduction
-
+## Introduction to Repositorie
 This repository contains multiple analyses on different topics, each organized into separate files. The files are numbered sequentially (1_, 2_, etc.) to illustrate my progression and approach to various data analysis tasks. You will find work related to different datasets, methodologies, and visualization techniques.
 
-### <a name="human resources analysis"></a>Human Resources Analysis
+<h2 id="human-resources-analysis">Human Resources Analysis</h2>
 
 ### Description
 This repository includes an analysis of the HR dataset focusing on:
@@ -29,12 +29,11 @@ This repository includes an analysis of the HR dataset focusing on:
 - `hr_query.sql`
 - `hrClean.sql`
 
+## Digital Marketing Analysis
 
-### <a name="digital marketing analysis"></a>Digital Marketing Analysis
+<!-- Add your content here -->
 
-
-
-### <a name="contact"></a>Contact
+<h2 id="contact">Contact</h2>
 Feel free to reach out if you have any questions or need further information.
 
 ### Email: 
