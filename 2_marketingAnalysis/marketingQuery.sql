@@ -104,3 +104,6 @@ SELECT COUNT(*) FROM click_visit
 
 -----------------------------------------------------------------------------------------------------------------------
 --All the analyses I performed above are general, and I created them for detailed analysis in the future.
+---------------------------------------------------------------------------------------------------------------------
+
+--Success rate of advertising expenditures[In More Depth]
