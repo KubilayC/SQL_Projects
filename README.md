@@ -30,7 +30,8 @@ This repository includes an analysis of the HR dataset focusing on:
 
 ### <a name="digital marketing analysis"></a>Digital Marketing Analysis
 
-ongoing
+- `marketingQuery.sql`
+- `marketingClean.sql`
 
 ### <a name="contact"></a>Contact
 Feel free to reach out if you have any questions or need further information.
