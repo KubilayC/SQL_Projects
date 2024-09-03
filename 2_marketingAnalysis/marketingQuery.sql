@@ -107,3 +107,92 @@ SELECT COUNT(*) FROM click_visit
 ---------------------------------------------------------------------------------------------------------------------
 
 --Success rate of advertising expenditures[In More Depth]
+
+WITH click_visit AS(
+SELECT 
+    campaign_channel,
+    campaign_type,
+    ROUND(ad_spend),
+    click_through_rate,
+    conversion_rate,
+    ROUND(pages_per_visit)
+FROM
+    data.marketing
+WHERE 
+click_through_rate >0.05 AND pages_per_visit >= 7        // and belows
+)
+SELECT 
+    campaign_type,
+    COUNT(campaign_type) AS total 
+FROM 
+    click_visit 
+GROUP BY 
+    campaign_type;
+--I have found the number of successful and unsuccessful advertising models.
+------------------------------------------------------------------------------------------------------------------
+
+--Then, I combined two different CTEs to see which channels were used by these models.
+
+WITH click_visit AS (
+    SELECT 
+        campaign_channel,
+        campaign_type,
+        ROUND(ad_spend) AS ad_spend,
+        click_through_rate,
+        conversion_rate,
+        ROUND(pages_per_visit) AS pages_per_visit
+    FROM
+        data.marketing
+    WHERE 
+        click_through_rate > 0.05 
+        AND pages_per_visit >= 7
+),
+channel_s AS (
+    SELECT 
+        campaign_type,
+        COUNT(campaign_type) AS total 
+    FROM 
+        click_visit 
+    GROUP BY 
+        campaign_type
+)
+SELECT 
+    c.campaign_type,
+    c.total,
+    SUM(CASE WHEN cv.campaign_channel = 'SOCIAL MEDIA' THEN 1 ELSE 0 END) AS "SOCIAL MEDIA",
+    SUM(CASE WHEN cv.campaign_channel = 'EMAIL' THEN 1 ELSE 0 END) AS "EMAIL",
+    SUM(CASE WHEN cv.campaign_channel = 'PPC' THEN 1 ELSE 0 END) AS "PPC",
+    SUM(CASE WHEN cv.campaign_channel = 'SEO' THEN 1 ELSE 0 END) AS "SEO",
+    SUM(CASE WHEN cv.campaign_channel = 'REFERRAL' THEN 1 ELSE 0 END) AS "REFERRAL"
+FROM 
+    channel_s c
+JOIN 
+    click_visit cv ON c.campaign_type = cv.campaign_type
+GROUP BY 
+    c.campaign_type, c.total;
+--------------------------------------------------------------------------------------------------------------------
+
+-- I wanted to see how much each channel spent, showing 'successful/unsuccessful'.
+
+WITH channel_spend AS (
+    SELECT
+        campaign_channel,
+        SUM(ad_spend) AS total_spend
+    FROM
+        data.marketing
+    WHERE 
+        click_through_rate > 0.05 
+        AND pages_per_visit >= 7
+    GROUP BY
+        campaign_channel
+)
+SELECT 
+    campaign_channel,
+    ROUND(total_spend)
+FROM 
+    channel_spend
+ORDER BY 
+    total_spend DESC;
+
+-----------------------------------------------------------------------------------------------------------------------
+
