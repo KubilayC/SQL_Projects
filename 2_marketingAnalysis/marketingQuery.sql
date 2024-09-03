@@ -196,3 +196,37 @@ ORDER BY
 
 -----------------------------------------------------------------------------------------------------------------------
 
+--I measured how different social media channels contribute to retention.
+
+WITH social_email_interaction AS (
+    SELECT
+        campaign_channel,
+        campaign_type,
+        SUM(social_shares) AS total_social_shares,
+        SUM(email_opens) AS total_email_opens,
+        SUM(email_clicks) AS total_email_clicks,
+        AVG(conversion_rate) AS avg_conversion_rate,
+        AVG(loyalty_points) AS avg_loyalty_score
+    FROM
+        data.marketing
+    GROUP BY
+        campaign_channel, campaign_type
+)
+SELECT
+    campaign_channel,
+    campaign_type,
+    total_social_shares,
+    total_email_opens,
+    total_email_clicks,
+    avg_conversion_rate,
+    avg_loyalty_score,
+    CASE 
+        WHEN total_social_shares > total_email_opens THEN 'Social Media More Effective'
+        WHEN total_email_opens > total_social_shares THEN 'Email More Effective'
+        ELSE 'Both Equally Effective'
+    END AS effectiveness
+FROM
+    social_email_interaction
+ORDER BY
+    avg_conversion_rate DESC, avg_loyalty_score DESC;
+
