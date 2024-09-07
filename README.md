@@ -22,7 +22,7 @@ This repository includes an analysis of the HR dataset focusing on:
 - Education vs. Department: Relationship between employees' educational backgrounds and their current departments.
 - Job Roles Analysis: Examination of job roles in relation to employees' education.
 
-The analysis uses SQL queries and CTEs to provide insights into workforce distribution, commuting patterns, and the influence of education on job roles.
+- The analysis uses SQL queries and CTEs to provide insights into workforce distribution, commuting patterns, and the influence of education on job roles.
 
 ### Files
 - `Human Resources Data Analysis and Visualization Report.pdf`
