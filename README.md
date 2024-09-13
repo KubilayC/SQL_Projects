@@ -29,9 +29,15 @@ This repository includes an analysis of the HR dataset focusing on:
 - `hrClean.sql`
 
 ### <a name="digital marketing analysis"></a>Digital Marketing Analysis
+This repository includes an analysis of the online marketing dataset with a focus on key performance metrics and campaign effectiveness:
+- Campaign Performance: Analysis of the effectiveness of various campaign types (e.g., SEO, PPC, Social Media) across different marketing channels.
+- Email Interactions: Breakdown of email clicks and opens across marketing channels to evaluate user engagement.
+- Conversion and Retention: Assessment of campaign conversion rates and their correlation with retention strategies.
+- Channel Effectiveness: Evaluation of the most effective marketing channels in terms of user interaction and conversion rates.
+The analysis utilizes SQL queries and visualization techniques to provide insights into marketing campaign performance, user engagement patterns, and channel effectiveness.
 
 ### Files
-- `Online Marketing Campaigns Data Analysis and Visualization Report.pdf`
+- `Online Marketing Data Analysis and Visualization Report.pdf`
 - `marketingQuery.sql`
 - `marketingClean.sql`
 
